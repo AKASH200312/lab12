@@ -33,7 +33,7 @@ public class FamilyTree
         {
             // Add childNode to this node's children list. Also
             // set childNode's parent to this node.
-        	this.children.add(childNode);
+        	children.add(childNode);
         	childNode.parent = this;
         }
         
